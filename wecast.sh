@@ -1,7 +1,6 @@
 #!/bin/bash
 
-DEFAULT_HOST="192.168.49.1"
-HOST=$1
+HOST="192.168.49.1"
 
 HOST="${HOST:=$DEFAULT_HOST}"
 
