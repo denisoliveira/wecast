@@ -2,8 +2,6 @@
 
 HOST="192.168.49.1"
 
-HOST="${HOST:=$DEFAULT_HOST}"
-
 media-controll() {
 	case "$1" in
 		"play" | "pause" | "stop" | "rew" | "ffw" | "vol_up" | "pre" | "next" | "vol_down" ) 
